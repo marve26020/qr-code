@@ -1,3 +1,26 @@
-body{
-    background-color: #D5E1EF;
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  inline-size: 320px;
+  block-size: 516px;
+  border: 3px solid red;
+}
+qr-code,
+img {
+  /* width: 288px;
+    height: 288px; */
+
+  /* same as using the height and width property */
+  width: 288px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
