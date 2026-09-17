@@ -1,5 +1,7 @@
 body {
   background-color: #d5e1ef;
+  /* margin-block: 1rem; */
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -12,7 +14,7 @@ body {
   background-color: #ffffff;
   inline-size: 320px;
   block-size: 516px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 qr-code,
 img {
@@ -23,4 +25,5 @@ img {
   width: 288px;
   aspect-ratio: 1/1;
   object-fit: cover;
+  border-radius: 10px;
 }
