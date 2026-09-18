@@ -1,5 +1,6 @@
 body {
   background-color: #d5e1ef;
+  font-family: outfit;
   /* margin-block: 1rem; */
   min-height: 100dvh;
   display: flex;
@@ -15,6 +16,8 @@ body {
   inline-size: 320px;
   block-size: 516px;
   /* border: 3px solid red; */
+  border-radius: 22px;
+  position: relative;
 }
 qr-code,
 img {
@@ -26,4 +29,27 @@ img {
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 10px;
+  margin-inline: 16px;
+  margin-block: 16px;
 }
+.text {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 328px;
+  left: 16px;
+}
+.text > h1 {
+  /* border: 2px solid blue; */
+  inline-size: 256px;
+  block-size: 56px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 0px;
+  margin-inline: 16px;
+  margin-block: 17px;
+}
+
+/* .text>p{
+
+} */
