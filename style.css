@@ -19,7 +19,7 @@ body {
   border-radius: 22px;
   position: relative;
 }
-qr-code,
+/* .qr-code, */
 img {
   /* width: 288px;
     height: 288px; */
