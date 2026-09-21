@@ -53,7 +53,7 @@ I also learnt that beyond the scope of this project the use of CSS logical prope
 
 I sincerely believe that CSS is changing rapidly just the same way programming languages evolve. I look forward to continue to learn and research more about these modern ways to getting better results that way I am becoming good at writing better code.
 
-### Useful resources
+### Useful resources.
 
 - [MDN - CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Logical_properties_and_values) - This helped me in studying more about CSS logical properties and also how they can be used to doing better things.
 
